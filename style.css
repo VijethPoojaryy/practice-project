@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #0f172a;
+    color: white;
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #1e293b;
+}
+
+nav button {
+    padding: 8px 12px;
+    border: none;
+    background: #38bdf8;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero {
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    margin-bottom: 20px;
+    opacity: 0.8;
+}
+
+.hero button {
+    padding: 10px 20px;
+    border: none;
+    background: #22c55e;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background: #334155;
+}
+
+footer {
+    padding: 20px;
+    background: #1e293b;
+    margin-top: 40px;
+}
+
+/* Light mode */
+.light-mode {
+    background: white;
+    color: black;
+}
+
+.light-mode nav {
+    background: #e2e8f0;
+}
+
+.light-mode .card {
+    background: #f1f5f9;
+}
