@@ -21,3 +21,6 @@ Brief explanation of your idea.
 git clone <repo-link>
 cd project-folder
 ```
+
+## 🌐 Live Demo
+[Click here to view project](https://vijethpoojaryy.github.io/practice-project/)
